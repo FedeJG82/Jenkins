@@ -6,9 +6,6 @@ def jsonParse(def json) {
 
 pipeline {
     agent { label 'principal'}
-    parameters {
-        
-    }
     environment {
         appName = "variable"
     }
